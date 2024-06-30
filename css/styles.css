@@ -385,10 +385,10 @@ h1 {
 
 @media (max-width: 550px) {
     .album-content h2 {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .album-content p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
