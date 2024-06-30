@@ -152,6 +152,10 @@ h1 {
     margin-left: 300px;
 }
 
+.tour img {
+    width: 80vw;
+}
+
 .tours {
     margin-left: 300px;
     text-align: left;
