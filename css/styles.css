@@ -100,12 +100,13 @@ h3 {
 .image-wrapper {
     display: flex;
     gap: 20px;
+    justify-content: center;
 
 }
 
 .image-wrapper img {
-    width: 400px;
-    height: 550px;
+    width: 40%;
+    height: auto;
 
 }
 
@@ -370,4 +371,10 @@ h1 {
     position: absolute;
     color: white;
     font-size: 8rem;
+}
+
+@media (max-width: 1024px) {
+    .video-container h2 {
+        display: none;
+    }
 }
