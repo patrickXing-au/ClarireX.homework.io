@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 210, 226);
+    font-family: "Abril-Fatface";
+}
+
+h1 {
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+}
+
+h2 {
+    font-family: "Abril Fatface", serif;
+}
+
+nav {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Abril-Fatface";
+    background-color: rgb(189, 88, 189);
+}
+
+.active {
+    background-color: rgb(219, 165, 219);
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(219, 165, 219);
+    color: black;
+}
+
+.main {
+    font-family: "Abril-Fatface";
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    width: 60%;
+    text-align: center;
+}
+
+.hero img {
+    width: 40vw;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(189, 88, 189);
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: "Abril-Fatface";
+}
+
+h3 {
+    margin-left: 70px;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.early-life {
+    width: 60%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Playfair'
+}
+
+.main {
+    font-size: 20px;
+}
+
+.image-wrapper {
+    display: flex;
+    gap: 20px;
+
+}
+
+.image-wrapper img {
+    width: 400px;
+    height: 550px;
+
+}
+
+.albums {
+    font-family: 'Abril-Fatface';
+    line-height: 28px;
+    font-size: 17px;
+    margin-left: 300px;
+
+}
+
+.h2-Header2 {
+    font-family: 'Abril-Fatface';
+    font-size: 20px;
+    margin-left: 300px;
+}
+
+.albums2 {
+    font-family: 'Playfair';
+    line-height: 28px;
+    font-size: 17px;
+    margin-left: 30px;
+
+}
+
+.albumsimg {
+    width: 900px;
+    margin-left: 500px;
+}
+
+.Header2 {
+    text-decoration: overline;
+}
+
+h1 {
+    text-decoration: overline;
+}
+
+.albums2 {
+    font-family: 'Abril-Fatface';
+    line-height: 28px;
+    font-size: 17px;
+    margin-left: 300px;
+}
+
+.tours {
+    margin-left: 300px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Abril-Fatface';
+}
+
+.tour-p {
+    margin-left: 300px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.section-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.content-left {
+    text-align: left;
+}
+
+/* Album grid styling */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    gap: 20px;
+    /* Gap between items */
+}
+
+.album {
+    min-height: 45vh;
+    min-width: 25vw;
+    position: relative;
+    perspective: 1000px;
+    /* Creates perspective for 3D effect */
+}
+
+.album-front,
+.album-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    /* Ensures only front side is visible initially */
+    transition: transform 0.8s;
+    border-radius: 10px;
+}
+
+.album-front {
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.album-taylor-swift {
+    background-image: url('/images/1st\ album.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Replace with correct path to image */
+}
+
+.album-fearless {
+    background-image: url('/images/fearless.webp');
+    background-size: cover;
+    /* Replace with correct path to image */
+}
+
+.album-speak-now {
+    background-image: url('/images/Speak now.jpeg');
+    background-size: cover;
+    /* Replace with correct path to image */
+}
+
+.album-red {
+    background-image: url('/images/red.webp');
+    /* Replace with correct path to image */
+}
+
+.album-1989 {
+    background-image: url('/images/1989.jpeg');
+    /* Replace with correct path to image */
+}
+
+.album-reputation {
+    background-image: url('/images/reputation.jpeg');
+    /* Replace with correct path to image */
+}
+
+.album-lover {
+    background-image: url('/images/lover.webp');
+    /* Replace with correct path to image */
+}
+
+.album-evermore {
+    background-image: url('/images/evermore.jpeg');
+    /* Replace with correct path to image */
+}
+
+.album-folklore {
+    background-image: url('/images/folklore.jpg');
+    /* Replace with correct path to image */
+}
+
+.album-midnights {
+    background-image: url('/images/midnights.jpeg');
+    /* Replace with correct path to image */
+}
+
+.album-ttpd {
+    background-image: url('/images/TTPD.webp');
+    /* Replace with correct path to image */
+}
+
+.album-back {
+    background-color: rgb(189, 88, 189);
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.album:hover .album-front {
+    transform: rotateY(-180deg);
+}
+
+.album:hover .album-back {
+    transform: rotateY(0deg);
+}
+
+.album-content {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.album-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.album-content p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.tour-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Grid with minimum item width of 300px */
+
+    /* Grid with minimum item width of 300px */
+    gap: 20px;
+    /* Gap between items */
+}
+
+.tour-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    height: 500px;
+}
+
+.tour-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.tour-item-wiki h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.tour-item iframe {
+    border: none;
+    margin-top: -145px;
+    /* Remove border from iframe */
+}
+
+.iframe-wrapper {
+    display: block;
+    overflow: hidden;
+    width: 40vw;
+    height: 500px;
+}
+
+.image-div img {
+    width: 50vw;
+}
+
+.background-video {
+    z-index: -1;
+    width: 100vw;
+    height: auto;
+    margin-top: -120px;
+    margin-bottom: -120px;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    overflow: hidden;
+}
+
+.video-container h2 {
+    position: absolute;
+    color: white;
+    font-size: 8rem;
+}
