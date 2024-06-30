@@ -262,12 +262,12 @@ h1 {
 }
 
 .album-midnights {
-    background-image: url('/images/midnights.jpeg');
+    background-image: url('../images/midnights.jpeg');
     /* Replace with correct path to image */
 }
 
 .album-ttpd {
-    background-image: url('/images/TTPD.webp');
+    background-image: url('../images/TTPD.webp');
     /* Replace with correct path to image */
 }
 
