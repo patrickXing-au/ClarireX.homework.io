@@ -382,3 +382,13 @@ h1 {
         display: none;
     }
 }
+
+@media (max-width: 550px) {
+    .album-content h2 {
+        font-size: 1rem;
+    }
+
+    .album-content p {
+        font-size: 0.7rem;
+    }
+}
