@@ -369,6 +369,7 @@ h1 {
     align-items: center;
     place-content: center;
     overflow: hidden;
+    min-height: 200px;
 }
 
 .video-container h2 {
@@ -385,10 +386,10 @@ h1 {
 
 @media (max-width: 550px) {
     .album-content h2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     .album-content p {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
