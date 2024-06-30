@@ -212,7 +212,7 @@ h1 {
 }
 
 .album-taylor-swift {
-    background-image: url('/images/1st\ album.png');
+    background-image: url('../images/1st\ album.png');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -220,44 +220,44 @@ h1 {
 }
 
 .album-fearless {
-    background-image: url('/images/fearless.webp');
+    background-image: url('../images/fearless.webp');
     background-size: cover;
     /* Replace with correct path to image */
 }
 
 .album-speak-now {
-    background-image: url('/images/Speak now.jpeg');
+    background-image: url('../images/Speak now.jpeg');
     background-size: cover;
     /* Replace with correct path to image */
 }
 
 .album-red {
-    background-image: url('/images/red.webp');
+    background-image: url('../images/red.webp');
     /* Replace with correct path to image */
 }
 
 .album-1989 {
-    background-image: url('/images/1989.jpeg');
+    background-image: url('../images/1989.jpeg');
     /* Replace with correct path to image */
 }
 
 .album-reputation {
-    background-image: url('/images/reputation.jpeg');
+    background-image: url('../images/reputation.jpeg');
     /* Replace with correct path to image */
 }
 
 .album-lover {
-    background-image: url('/images/lover.webp');
+    background-image: url('../images/lover.webp');
     /* Replace with correct path to image */
 }
 
 .album-evermore {
-    background-image: url('/images/evermore.jpeg');
+    background-image: url('../images/evermore.jpeg');
     /* Replace with correct path to image */
 }
 
 .album-folklore {
-    background-image: url('/images/folklore.jpg');
+    background-image: url('../images/folklore.jpg');
     /* Replace with correct path to image */
 }
 
